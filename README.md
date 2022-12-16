@@ -1,4 +1,4 @@
-# high-on-life-fov
+# High on Life FOV locker
 This is an FOV locker for the game High on Life as it is really annoying for me to go into Cheat Engine, scan and replace the bytes. This tool will do that for you.
 Once you have it downloaded, you will just be able to open UUU to change the FOV and then run the exe file. This will lock your FOV in game.
 
