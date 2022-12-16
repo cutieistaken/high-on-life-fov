@@ -7,6 +7,7 @@ Once you have it downloaded, you will just be able to open UUU to change the FOV
 
 
 
+### This may be "detected" as a virus by your computer, ignore it and disable your Anti-virus or just compile it yourself if you don't want to run a random exe file!
 
 
 
