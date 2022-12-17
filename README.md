@@ -30,7 +30,7 @@ Once you have it downloaded, you will just be able to open UUU to change the FOV
 
 
 
-This works on build 10125262 of High on Life!! Download the binary for your game version from the Releases section or compile yourself. 
+This works on build 10158842 of High on Life!! Download the binary for your game version from the Releases section or compile yourself. 
 
 
 
