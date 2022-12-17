@@ -55,7 +55,7 @@ int main()
         return 1;
     }
     
-    // Change Oregon-Win64-Shipping.exe to whatever your version is, this is the steam version
+    // Change Oregon-Win64-Shipping.exe to Oregon-WinGDK-Shipping.exe if you use Microsoft Store Version
     DWORD64 baseAddr = GetModuleBaseAddress(procID, L"Oregon-Win64-Shipping.exe");
 
     std::cout << "process id is: " << procID << "\n";
@@ -63,8 +63,8 @@ int main()
 
     // Use basic ptr arithmatic to get to the base of the setFov function
     // Hard-coding this offset may cause a problem in the future if updates break it, but for now (version: 10125262), it works
-    DWORD_PTR setFOVBase = baseAddr + 0x34661F7;
-    DWORD_PTR otherBase = baseAddr + 0x1634B70;
+    DWORD_PTR setFOVBase = baseAddr + 0x3467247;
+    DWORD_PTR otherBase = baseAddr + 0x1635AF0;
     
     std::cout << "setFOV() base is: " << std::hex << setFOVBase << "\n";
 
